@@ -22,7 +22,7 @@ from controllers.client_liste_envies import *
 
 app = Flask(__name__)
 
-app.secret_key = os.environ.get('SECRET_KEY')
+app.secret_key = "figqIGFQIGCBKGQI"
 
 @app.teardown_appcontext
 def close_connection(exception):
